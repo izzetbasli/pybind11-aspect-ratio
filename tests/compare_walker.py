@@ -2,8 +2,8 @@ from pathlib import Path
 import difflib
 
 if __name__ == "__main__":
-    expected_path = Path("stubs/expected")
-    generated_path = Path("stubs/generated")
+    expected_path = Path("./stubs/expected")
+    generated_path = Path("./stubs/generated")
 
     rel_expected_stubs = sorted([p.relative_to(expected_path) for p in expected_path.rglob("*.pyi")])
     rel_generated_stubs = sorted([p.relative_to(generated_path) for p in generated_path.rglob("*.pyi")])

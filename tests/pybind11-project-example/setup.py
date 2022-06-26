@@ -64,15 +64,15 @@ class CMakeBuild(build_ext):
 
 setup(
     name='pybind11-project-example',
-    version='0.0.0',
-    author='Sergei Izmailov',
-    author_email='sergei.a.izmailov@gmail.com',
+    version='0.0.1',
+    author='M. C .V',
+    author_email='ktuce.mcanv@gmail.com',
     description='A minimal self-contained pybind11 project',
     long_description=open("README.rst").read(),
     ext_modules=[CMakeExtension('cpp_library_bindings/_core')],
     packages=find_packages(),
     cmdclass=dict(build_ext=CMakeBuild),
-    url="https://github.com/sizmailov/pybind11-project-example",
+    url="https://github.com/mcvarer/pybind11-aspect-ratio.git",
     zip_safe=False,
     install_requires=[
         "numpy"

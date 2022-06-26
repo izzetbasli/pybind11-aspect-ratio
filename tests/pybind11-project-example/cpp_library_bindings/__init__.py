@@ -4,4 +4,4 @@
 from .core import *
 
 #
-version = "0.0.0"
+version = "0.0.1"
