@@ -68,7 +68,7 @@ setup(
     author='M. C .V',
     author_email='ktuce.mcanv@gmail.com',
     description='A minimal self-contained pybind11 project',
-    long_description=open("README.rst").read(),
+    long_description=open("README.md").read(),
     ext_modules=[CMakeExtension('cpp_library_bindings/_core')],
     packages=find_packages(),
     cmdclass=dict(build_ext=CMakeBuild),

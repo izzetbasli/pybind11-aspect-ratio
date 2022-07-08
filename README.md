@@ -18,9 +18,10 @@ It can be used as a C++ python module template.
 --------------
 
 ```bash
-cd test/pybind11-project-example
-python -m venv myenv
+python -m venv myenv22
 source myenv/bin/activate
+cd ..
+pip install -r requirements.txt
 python  setup.py install --force # regular python install is working
 cd ..
 chmod +x ./run_test.sh
